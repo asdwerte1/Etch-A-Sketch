@@ -4,6 +4,9 @@ addEventListener("DOMContentLoaded", () => {
         const element = document.createElement("div");
         element.id = `${index + 1}`;
         element.className = "pixel";
+        element.addEventListener("mouseenter", () => {
+            element.style.backgroundColor = "#000";
+        });
         grid.appendChild(element);
     }
 });
