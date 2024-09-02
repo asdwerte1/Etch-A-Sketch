@@ -1,0 +1,12 @@
+#grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.pixel {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+}
