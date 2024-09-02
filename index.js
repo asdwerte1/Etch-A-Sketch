@@ -6,7 +6,6 @@ addEventListener("DOMContentLoaded", () => {
     function generatePixels(number) {
         
         for (let index = 0; index < number**2; index++) {
-            console.log(index);
             const element = document.createElement("div");
             element.id = `${index + 1}`;
             element.className = "pixel";
