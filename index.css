@@ -1,12 +1,48 @@
+body {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+}
+
+button {
+    background-color: lightskyblue;
+    border: solid medium darkslateblue;
+    color: #000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: darkslateblue;
+    border-color: lightskyblue;
+    color: #fff;
+    cursor: pointer;
+}
+
+#sketch-pad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
 #grid {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 400px;
+    width: 800px;
+    border-top: solid 50px red;
+    border-left: solid 50px red;
+    border-right: solid 50px red;
+    border-bottom: solid 200px red;
 }
 
 .pixel {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: #ffffff;
 }

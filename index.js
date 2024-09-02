@@ -9,4 +9,9 @@ addEventListener("DOMContentLoaded", () => {
         });
         grid.appendChild(element);
     }
+
+    const resBtn = document.getElementById("res-btn");
+    resBtn.addEventListener("click", () => {
+        prompt("Enter the desired resolution of the sketch area\nYour value should be in pixels and will set the width and height of the pixels");
+    })
 });
