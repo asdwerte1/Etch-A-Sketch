@@ -45,6 +45,5 @@ button:hover {
 
 .pixel {
     background-color: #ffffff;
-    border-bottom: solid thin lightgray;
-    border-left: solid thin lightgrey;
+    border: solid thin lightgrey;
 }
